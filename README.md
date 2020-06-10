@@ -2,7 +2,7 @@
 
 Android IR LED TV Remote App. Control a non-smart TV using your phone and a Raspberry Pi server.
 
-![TV Remote App](app.jpg)
+<img src="./app.jpg" width="25%">
 
 ## What is it for?
 
@@ -58,7 +58,9 @@ for example: `irsend send_once` *config_name* `KEY_POWER`
 You might need to run it as a root user (*sudo*).
 
 6. Visit your Raspberry Pi's IP address in a web browser - you should see a website:
+
 ![TV Remote Website](website.png)
+
 That means the node.js server is up and running.
 
 7. Try clicking the links and check if you can control the TV from the website.
